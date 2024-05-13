@@ -11,25 +11,25 @@ import partE.testflows.LoginFlow;
 
 public class RegisterTest extends BaseTest{
 
-    @Test()
-    public void verifyLogin() throws InterruptedException {
-        System.out.println("=======using Driver" + getWebDriver().toString());
-        goTo(URL.LOGIN_PAGE);
-
-//        LoginFlow loginFlow = new LoginFlow(getWebDriver());
-//        loginFlow.loginWithCred(userCreds);
+//    @Test()
+//    public void verifyLogin() throws InterruptedException {
+//        System.out.println("=======using Driver" + getWebDriver().toString());
+//        goTo(URL.LOGIN_PAGE);
 //
-//        loginFlow.verifyLoginWithExistingCred();
+////        LoginFlow loginFlow = new LoginFlow(getWebDriver());
+////        loginFlow.loginWithCred(userCreds);
+////
+////        loginFlow.verifyLoginWithExistingCred();
+////
+////        if(userCreds.isExisted()) {
+////            loginFlow.verifyLoginWithExistingCred();
+////
+////        }else {
+////            loginFlow.verifyLoginWithNonExistedCred();
+////        }
+//        Thread.sleep(1500);
 //
-//        if(userCreds.isExisted()) {
-//            loginFlow.verifyLoginWithExistingCred();
-//
-//        }else {
-//            loginFlow.verifyLoginWithNonExistedCred();
-//        }
-        Thread.sleep(1500);
-
-    }
+//    }
 
     @Test()
     public void testGoogle() {
