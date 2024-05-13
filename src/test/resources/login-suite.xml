@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LOGIN-SUITE" parallel="classes" thread-count="2" >
+    <parameter name="browser" value="chrome"/>
+    <test name="Login" parallel="classes" thread-count="2">
+        <classes>
+            <class name="partE.test.LoginTest"></class>
+            <class name="partE.test.RegisterTest"></class>
+
+        </classes>
+    </test>
+
+</suite>
