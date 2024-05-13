@@ -52,6 +52,6 @@ public class BaseTest {
         return threadLocal.get().getDriver();
         //lay dung cai driver session tu cai thread specific
     }
-    public void goTo(URL path) {getWebDriver().get("https://the-internet.herokuapp.com/" + path.getPath());
+    public void goTo(URL path) {getWebDriver().get("https://the-internet.herokuapp.com" + path.getPath());
     }
 }
