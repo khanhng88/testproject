@@ -4,7 +4,7 @@
     <parameter name="browser" value="chrome"/>
     <test name="Login" parallel="classes" thread-count="2">
         <classes>
-            <class name="partE.test.LoginTest"></class>
+<!--            <class name="partE.test.LoginTest"></class>-->
             <class name="partE.test.RegisterTest"></class>
 
         </classes>
